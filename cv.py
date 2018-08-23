@@ -27,5 +27,5 @@ while(1):
     if(c%timeF==0):
         cv2.imwrite('D:\\img\\'+str(c)+'.jpg',frame)
         c=c+1
-        cv2.waitKey(1000)
+        time.sleep(1)
 cap.release()
